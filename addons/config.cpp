@@ -1115,8 +1115,6 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty = 1.0;
 			InterpolateTo[] = {"Unconscious",0.01,"AdvePercMrunSnonWpstDf",0.02,"AbdvPercMsprSnonWpstDf",0.02,"AsdvPercMsprSnonWpstDf",0.02,"AdvePercMrunSnonWpstDfl",0.02,"AdvePercMrunSnonWpstDfr",0.02,"AdvePercMstpSnonWpstDnon_relax",0.1,"AmovPercMstpSrasWpstDnon",0.03,"AdvePercMstpSnonWpstDnon",0.03,"AbdvPercMstpSnonWpstDnon",0.03,"AsdvPercMstpSnonWpstDnon",0.03};
 		};
-
-		class AidlPercMstpSrasWpstDnon_G0S{};
 		class AsdvPercMstpSnonWpstDnon: AidlPercMstpSrasWpstDnon_G0S
 		{
 			variantsAI[] = {};
@@ -1435,7 +1433,6 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			InterpolateTo[] = {"Unconscious",0.01,"AsdvPercMrunSnonWpstDf",0.02,"AbdvPercMsprSnonWpstDf",0.02,"AdvePercMsprSnonWpstDf",0.02,"AsdvPercMrunSnonWpstDfl",0.02,"AsdvPercMrunSnonWpstDfr",0.02,"AsdvPercMstpSnonWpstDnon_relax",0.1,"AmovPercMstpSrasWpstDnon",0.03,"AsdvPercMstpSnonWpstDnon",0.03,"AbdvPercMstpSnonWpstDnon",0.03,"AdvePercMstpSnonWpstDnon",0.03};
 		};
 
-		class AidlPercMstpSrasWpstDnon_G0S {};
 		class AbdvPercMstpSnonWpstDnon: AidlPercMstpSrasWpstDnon_G0S
 		{
 			variantsAI[] = {};
@@ -1758,7 +1755,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty = 0.6;
 			InterpolateTo[] = {"Unconscious",0.01,"AbdvPercMrunSnonWpstDf",0.02,"AdvePercMsprSnonWpstDf",0.02,"AsdvPercMsprSnonWpstDf",0.02,"AbdvPercMrunSnonWpstDfl",0.02,"AbdvPercMrunSnonWpstDfr",0.02,"AbdvPercMstpSnonWpstDnon_relax",0.1,"AmovPercMstpSrasWpstDnon",0.03,"AbdvPercMstpSnonWpstDnon",0.03,"AdvePercMstpSnonWpstDnon",0.03,"AsdvPercMstpSnonWpstDnon",0.03};
 		};
-		class AbdvPercMstpSnonWpstDnon {};
+		
 		class AdvePercMstpSnonWpstDnon_AdvePercMstpSnonWnonDnon: AdvePercMstpSnonWpstDnon
 		{
 			file = "\A3\anims_f\data\Anim\sdr\dve\erc\stp\non\rfl\AdvePercMstpSnonWpstDnon_AdvePercMstpSnonWnonDnon";
@@ -1801,6 +1798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			InterpolateTo[] = {"AsdvPercMstpSnonWpstDnon_AsdvPercMstpSnonWnonDnon",0.1,"AdvePercMstpSnonWpstDnon_AdvePercMstpSnonWnonDnon",0.1};
 			enableBinocular = 0;
 		};
+		class AbdvPercMstpSnonWnonDnon {};
 		class AbdvPercMstpSnonWnonDnon_AbdvPercMstpSnonWpstDnon: AbdvPercMstpSnonWnonDnon
 		{
 			static = 1;
@@ -1829,6 +1827,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			InterpolateTo[] = {"AdvePercMstpSnonWpstDnon_AdvePercMstpSnonWnonDnon",0.1,"AbdvPercMstpSnonWpstDnon_AbdvPercMstpSnonWnonDnon",0.1};
 			enableBinocular = 0;
 		};
+		class AsdvPercMstpSnonWnonDnon {};
 		class AsdvPercMstpSnonWnonDnon_AsdvPercMstpSnonWpstDnon: AsdvPercMstpSnonWnonDnon
 		{
 			static = 1;
